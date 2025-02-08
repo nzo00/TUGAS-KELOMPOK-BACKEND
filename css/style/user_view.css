@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.profile-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+.profile-card .details {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.profile-card .btn-back {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.avatar-img {
+    width: auto; /* Remove fixed width */
+    height: auto; /* Remove fixed height */
+    max-width: 150px; /* Set maximum width */
+    max-height: 150px; /* Set maximum height */
+    object-fit: cover;
+}
+
+.avatar-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.user-data div {
+    width: 45%;
+}

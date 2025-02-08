@@ -1,0 +1,124 @@
+body {
+    padding-top: 70px;
+    background-color: #f4f7fa;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #0066cc, #0099ff);
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-header img.avatar-img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.navbar .navbar-header .profile-name {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+}
+
+.navbar-nav li a:hover {
+    background-color: #0056b3;
+}
+
+.profile-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-container p {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn-logout {
+    background-color: #dc3545;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-logout:hover {
+    background-color: #c82333;
+}
+
+footer {
+    background: linear-gradient(to right, #0066cc, #0099ff);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navbar .navbar-header img.avatar-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar .navbar-header .profile-name {
+        font-size: 14px;
+    }
+
+    .profile-container img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile-container h2 {
+        font-size: 20px;
+    }
+
+    .profile-container p {
+        font-size: 14px;
+    }
+
+    .btn-logout {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

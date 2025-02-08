@@ -1,0 +1,111 @@
+body {
+    padding-top: 70px;
+    background-color: #f4f7fa;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #0066cc, #0099ff);
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.profile-name {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar-nav li {
+    margin-right: 15px; /* Sesuaikan dengan jarak yang diinginkan */
+}
+
+.navbar-nav li a {
+    color: white !important;
+}
+
+.navbar-nav li a:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-brand {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .avatar-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .profile-name {
+        font-size: 14px;
+    }
+}
+
+/* Footer Style */
+footer {
+    background: linear-gradient(to right, #0066cc, #0099ff);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 5;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.modal-footer {
+    border-top: none;
+    padding: 10px;
+}
+
+.icon-warning {
+    margin: 5px 0;
+}
